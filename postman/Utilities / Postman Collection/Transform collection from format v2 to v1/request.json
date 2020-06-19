@@ -1,0 +1,35 @@
+{
+  "method": "POST",
+  "header": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    }
+  ],
+  "body": {
+    "mode": "raw",
+    "raw": "{\n  \"info\": {\n    \"name\": \"Sample Postman Collection\",\n    \"schema\": \"https://schema.getpostman.com/json/collection/v2.0.0/collection.json\",\n    \"description\": \"A sample collection to demonstrate collections as a set of related requests\"\n  },\n\n  \"item\": [{\n    \"name\": \"A simple GET request\",\n    \"request\": {\n      \"url\": \"https://postman-echo.com/get?source=newman-sample-github-collection\",\n      \"method\": \"GET\"\n    }\n  }, {\n    \"name\": \"A simple POST request\",\n    \"request\": {\n      \"url\": \"https://postman-echo.com/post\",\n      \"method\": \"POST\",\n      \"header\": [{\n        \"key\": \"Content-Type\",\n        \"value\": \"text/plain\"\n      }],\n      \"body\": {\n        \"mode\": \"raw\",\n        \"raw\": \"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\"\n      }\n    }\n  }]\n}"
+  },
+  "url": {
+    "raw": "https://postman-echo.com/transform/collection?from=2&to=1",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "transform",
+      "collection"
+    ],
+    "query": [
+      {
+        "key": "from",
+        "value": "2"
+      },
+      {
+        "key": "to",
+        "value": "1"
+      }
+    ]
+  }
+}

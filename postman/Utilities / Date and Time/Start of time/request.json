@@ -1,0 +1,27 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/time/start?timestamp=2016-10-10&unit=month",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "time",
+      "start"
+    ],
+    "query": [
+      {
+        "key": "timestamp",
+        "value": "2016-10-10"
+      },
+      {
+        "key": "unit",
+        "value": "month"
+      }
+    ]
+  },
+  "description": "A simple `GET` request to `/time/start` to return a relative timstamp in the past from the specified / current timestamp (as provided in the `unit` query parameter).\n\nFor instance, if the `unit` has been specified as `month`, the returned timestamp would indicate the beginning of the current month. Similar results are returned for other units of time, like: `years`, `months`, `days`, `hours`, `minutes`, `seconds`, and `milliseconds`\n\nThis endpoint accepts `timestamp`, `locale`, `format`, and `strict` query parameters to construct the date time instance to check against.\n\nResponses are provided in JSON format, with a `start` key to indicate the result. The response code is `200` for valid query parameters, and `400` otherwise.\n\n```\n{\n  start: \"A timestamp from the past, depending on the `unit` specified\"\n}\n```"
+}

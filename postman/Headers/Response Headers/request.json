@@ -1,0 +1,26 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/response-headers?foo1=bar1&foo2=bar2",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "response-headers"
+    ],
+    "query": [
+      {
+        "key": "foo1",
+        "value": "bar1"
+      },
+      {
+        "key": "foo2",
+        "value": "bar2"
+      }
+    ]
+  },
+  "description": "This endpoint causes the server to send custom set of response headers. Providing header values as part of the URL parameters of a `GET` request to this endpoint returns the same as part of response header.\n\nTo send your own set of headers, simply add or replace the the URL parameters with your own set."
+}

@@ -1,0 +1,20 @@
+{
+  "method": "DELETE",
+  "header": [],
+  "body": {
+    "mode": "raw",
+    "raw": "This is expected to be sent back as part of response body."
+  },
+  "url": {
+    "raw": "https://postman-echo.com/delete",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "delete"
+    ]
+  },
+  "description": "The HTTP `DELETE` method is used to delete resources on a server. The exact\nuse of `DELETE` requests depends on the server implementation. In general, \n`DELETE` requests support both, Query String parameters as well as a Request \nBody.\n\nThis endpoint accepts an HTTP `DELETE` request and provides debug information\nsuch as the HTTP headers, Query String arguments, and the Request Body."
+}

@@ -1,0 +1,148 @@
+[
+  {
+    "id": "af2dce41-70c5-402b-aaba-b28aa210e379",
+    "name": "200",
+    "originalRequest": {
+      "method": "GET",
+      "header": [],
+      "url": {
+        "raw": "https://echo.getpostman.com/status/200",
+        "protocol": "https",
+        "host": [
+          "echo",
+          "getpostman",
+          "com"
+        ],
+        "path": [
+          "status",
+          "200"
+        ]
+      }
+    },
+    "status": "OK",
+    "code": 200,
+    "_postman_previewlanguage": "javascript",
+    "header": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Headers",
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Connection",
+        "key": "Connection",
+        "value": "keep-alive",
+        "description": ""
+      },
+      {
+        "name": "Content-Length",
+        "key": "Content-Length",
+        "value": "14",
+        "description": ""
+      },
+      {
+        "name": "Content-Type",
+        "key": "Content-Type",
+        "value": "application/json; charset=utf-8",
+        "description": ""
+      },
+      {
+        "name": "Date",
+        "key": "Date",
+        "value": "Thu, 31 Mar 2016 11:58:47 GMT",
+        "description": ""
+      },
+      {
+        "name": "ETag",
+        "key": "ETag",
+        "value": "W/\"e-1056260003\"",
+        "description": ""
+      },
+      {
+        "name": "Server",
+        "key": "Server",
+        "value": "nginx/1.6.2",
+        "description": ""
+      },
+      {
+        "name": "Vary",
+        "key": "Vary",
+        "value": "Accept-Encoding",
+        "description": ""
+      },
+      {
+        "name": "X-Powered-By",
+        "key": "X-Powered-By",
+        "value": "Sails <sailsjs.org>",
+        "description": ""
+      }
+    ],
+    "cookie": [
+      {
+        "expires": "Invalid Date",
+        "hostOnly": false,
+        "httpOnly": false,
+        "domain": ".getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": false,
+        "value": "yes",
+        "key": "getpostmanlogin"
+      },
+      {
+        "expires": "Invalid Date",
+        "hostOnly": false,
+        "httpOnly": false,
+        "domain": ".getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": false,
+        "value": "df0c0256028d7ec4d641f766104a9571a8e249685bbc667d7cee030bbf44d3209495c70c03248e31e678a93812591d5e12187a8e99bf6bc5e80c40903f6ff6226938f24e413c0ffa613a7372064ec44a8594e8d3ede6945e34394f369573feeebc4a73a3e24b8c9ac18a53704addb5fd3f71f1ede488ff551feb059e9c1fb208164814e45e0312c4df8ea6e83c26702f42ae634c6afbe82d57c857bbf5598b5527961c1c28688dc2580070a4389f0cf4ec0a179b5b9c11b2ecbaa5460d374065bf5c7a3add9505df0fa89acb9f227f05ed2d4c6b58c39d6d728bd49f6f323ae67d4a75882aa7682f5d6fc5b981ba411d94aa93970bfaefa1953a73e440d50d012b5f288975c888e2345ee7777e746fb5aed3a7b2dbc087c6456621aa78c24a3c17c5f96cf59844933249a352f631e2008cffac6faf06d0e253dcc01cf0067bf56c1fbc5ed61fec1861b60c5accf35ffc2e56154a113004fa1db9d7171c3af8fc063918554092f5",
+        "key": "postman.sid"
+      },
+      {
+        "expires": "Invalid Date",
+        "hostOnly": false,
+        "httpOnly": false,
+        "domain": ".echo.getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": false,
+        "value": "GA1.3.1703443399.1459422978",
+        "key": "_ga"
+      },
+      {
+        "expires": "Invalid Date",
+        "hostOnly": true,
+        "httpOnly": true,
+        "domain": "echo.getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": true,
+        "value": "s%3AvuHU0EKeDbyNjVrEc7U30dMPzVu8CRaD.GOV1H9olcVzXqrwqP%2BC%2B6MVj2UczXivcN00jgPoDYfs",
+        "key": "sails.sid"
+      }
+    ],
+    "responseTime": null,
+    "body": "{\"status\":200}"
+  }
+]

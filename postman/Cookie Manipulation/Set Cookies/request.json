@@ -1,0 +1,27 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/cookies/set?foo1=bar1&foo2=bar2",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "cookies",
+      "set"
+    ],
+    "query": [
+      {
+        "key": "foo1",
+        "value": "bar1"
+      },
+      {
+        "key": "foo2",
+        "value": "bar2"
+      }
+    ]
+  },
+  "description": "The cookie setter endpoint accepts a list of cookies and their values as part of URL parameters of a `GET` request. These cookies are saved and can be subsequently retrieved or deleted. The response of this request returns a JSON with all cookies listed.\n\nTo set your own set of cookies, simply replace the URL parameters \"foo1=bar1&foo2=bar2\" with your own set of key-value pairs."
+}

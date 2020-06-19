@@ -1,0 +1,20 @@
+{
+  "method": "PATCH",
+  "header": [],
+  "body": {
+    "mode": "raw",
+    "raw": "This is expected to be sent back as part of response body."
+  },
+  "url": {
+    "raw": "https://postman-echo.com/patch",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "patch"
+    ]
+  },
+  "description": "The HTTP `PATCH` method is used to update resources on a server. The exact\nuse of `PATCH` requests depends on the server in question. There are a number\nof server implementations which handle `PATCH` differently. Technically, \n`PATCH` supports both Query String parameters and a Request Body.\n\nThis endpoint accepts an HTTP `PATCH` request and provides debug information\nsuch as the HTTP headers, Query String arguments, and the Request Body."
+}

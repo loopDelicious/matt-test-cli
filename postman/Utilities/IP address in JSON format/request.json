@@ -1,0 +1,16 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/ip",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "ip"
+    ]
+  },
+  "description": "A simple `GET` request to return the IP address of the source request in the following `JSON` format:\n\n```json\n{\n  ip: \"request-ip-address\"\n}\n```"
+}

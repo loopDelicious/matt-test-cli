@@ -1,0 +1,31 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/time/between?timestamp=2016-10-10&start=2017-10-10&end=2019-10-10",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "time",
+      "between"
+    ],
+    "query": [
+      {
+        "key": "timestamp",
+        "value": "2016-10-10"
+      },
+      {
+        "key": "start",
+        "value": "2017-10-10"
+      },
+      {
+        "key": "end",
+        "value": "2019-10-10"
+      }
+    ]
+  },
+  "description": "A simple `GET` request to `/time/between` to check if the provided timestamp is between a range specified by the `start` and `end` query parameters. A resolution limit can also be specified by the `unit` query parameter.\n\nFor instance, for a resolution `unit` of `month`,\n`2016-10-05` does lie between `2016-11-02` and `2016-09-01`.\n\nThis endpoint also accepts `timestamp`, `locale`, `format`, `strict`, and `target` query parameters to construct the date time instance to check against.\n\nResponses are provided in JSON format, with a `between` key to indicate the result. The response code is `200` for valid query parameters, and `400` otherwise.\n\n```\n{\n  between: true/false\n}\n```"
+}

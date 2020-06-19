@@ -1,0 +1,26 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/get?foo1=bar1&foo2=bar2",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "get"
+    ],
+    "query": [
+      {
+        "key": "foo1",
+        "value": "bar1"
+      },
+      {
+        "key": "foo2",
+        "value": "bar2"
+      }
+    ]
+  },
+  "description": "The HTTP `GET` request method is meant to retrieve data from a server. The data\nis identified by a unique URI (Uniform Resource Identifier). \n\nA `GET` request can pass parameters to the server using \"Query String \nParameters\". For example, in the following request,\n\n> http://example.com/hi/there?hand=wave\n\nThe parameter \"hand\" has the value \"wave\".\n\nThis endpoint echoes the HTTP headers, request parameters and the complete\nURI requested."
+}

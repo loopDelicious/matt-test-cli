@@ -1,0 +1,17 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/time/now",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "time",
+      "now"
+    ]
+  },
+  "description": "A simple `GET` request to `/time/now` to return the current timestamp as a UTC string.\n\n```\nFri, 04 Nov 2016 09:00:46 GMT\n```"
+}

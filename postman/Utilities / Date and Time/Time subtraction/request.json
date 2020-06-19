@@ -1,0 +1,27 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/time/subtract?timestamp=2016-10-10&years=50",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "time",
+      "subtract"
+    ],
+    "query": [
+      {
+        "key": "timestamp",
+        "value": "2016-10-10"
+      },
+      {
+        "key": "years",
+        "value": "50"
+      }
+    ]
+  },
+  "description": "A simple `GET` request to `/time/subtract` to subtract units of time from the specified / current timestamp (as provided in the `years`, `months`, `days`, `hours`, `minutes`, `seconds`, and `milliseconds` query parameters).\n\nThis endpoint accepts `timestamp`, `locale`, `format`, and `strict` query parameters to construct the date time instance to check against.\n\nResponses are provided in JSON format, with a `difference` key to indicate the result. The response code is `200` for valid query parameters, and `400` otherwise.\n\n```\n{\n  difference: \"difference between (provided / current) and provided timestamps\"\n}\n```"
+}

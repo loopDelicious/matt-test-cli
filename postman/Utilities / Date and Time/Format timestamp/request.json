@@ -1,0 +1,27 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/time/format?timestamp=2016-10-10&format=mm",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "time",
+      "format"
+    ],
+    "query": [
+      {
+        "key": "timestamp",
+        "value": "2016-10-10"
+      },
+      {
+        "key": "format",
+        "value": "mm"
+      }
+    ]
+  },
+  "description": "A simple `GET` request to `/time/format` to convert the timestamp to any desired valid format.\n\nThis endpoint accepts `timestamp`, `locale`, `format`, and `strict` query parameters to construct the date time instance to check against.\n\nResponses are provided in JSON format, with a `format` key to indicate the result. The response code is `200` for valid query parameters, and `400` otherwise.\n\n```\n{\n  format: \"formatted-timestamp\"\n}\n```"
+}

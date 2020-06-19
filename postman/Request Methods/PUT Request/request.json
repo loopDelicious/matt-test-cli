@@ -1,0 +1,20 @@
+{
+  "method": "PUT",
+  "header": [],
+  "body": {
+    "mode": "raw",
+    "raw": "This is expected to be sent back as part of response body."
+  },
+  "url": {
+    "raw": "https://postman-echo.com/put",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "put"
+    ]
+  },
+  "description": "The HTTP `PUT` request method is similar to HTTP `POST`. It too is meant to \ntransfer data to a server (and elicit a response). What data is returned depends on the implementation\nof the server.\n\nA `PUT` request can pass parameters to the server using \"Query String \nParameters\", as well as the Request Body. For example, in the following \nraw HTTP request,\n\n> PUT /hi/there?hand=wave\n>\n> <request-body>\n\n\n"
+}

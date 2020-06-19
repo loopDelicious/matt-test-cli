@@ -1,0 +1,144 @@
+[
+  {
+    "id": "099a834f-a4bf-4e18-aceb-4387100054da",
+    "name": "Sample v2 Response",
+    "originalRequest": {
+      "method": "POST",
+      "header": [
+        {
+          "key": "Content-Type",
+          "value": "application/json",
+          "description": "The mime type of this content"
+        }
+      ],
+      "body": {
+        "mode": "raw",
+        "raw": "{\n  \"id\": \"7875be4b-917d-4aff-8cc4-5606c36bf418\",\n  \"name\": \"Sample Postman Collection\",\n  \"description\": \"A sample collection to demonstrate collections as a set of related requests\",\n  \"order\": [\n    \"4d9134be-e8bf-4693-9cd7-1c0fc66ae739\",\n    \"141ba274-cc50-4377-a59c-e080066f375e\",\n    \"4511ca8b-0bc7-430f-b894-a7ec1036f322\"\n  ],\n  \"folders\": [],\n  \"requests\": [\n    {\n      \"id\": \"4d9134be-e8bf-4693-9cd7-1c0fc66ae739\",\n      \"name\": \"A simple GET request\",\n      \"collectionId\": \"877b9dae-a50e-4152-9b89-870c37216f78\",\n      \"method\": \"GET\",\n      \"headers\": \"\",\n      \"data\": [],\n      \"rawModeData\": \"\",\n      \"tests\": \"tests['response code is 200'] = (responseCode.code === 200);\",\n      \"preRequestScript\": \"\",\n      \"url\": \"https://postman-echo.com/get?source=newman-sample-github-collection\"\n    },\n    {\n      \"id\": \"141ba274-cc50-4377-a59c-e080066f375e\",\n      \"name\": \"A simple POST request\",\n      \"collectionId\": \"877b9dae-a50e-4152-9b89-870c37216f78\",\n      \"method\": \"POST\",\n      \"headers\": \"Content-Type: text/plain\",\n      \"dataMode\": \"raw\",\n      \"data\": [],\n      \"rawModeData\": \"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\",\n      \"url\": \"https://postman-echo.com/post\"\n    },\n    {\n      \"id\": \"4511ca8b-0bc7-430f-b894-a7ec1036f322\",\n      \"name\": \"A simple POST request with JSON body\",\n      \"collectionId\": \"877b9dae-a50e-4152-9b89-870c37216f78\",\n      \"method\": \"POST\",\n      \"headers\": \"Content-Type: application/json\",\n      \"dataMode\": \"raw\",\n      \"data\": [],\n      \"rawModeData\": \"{\\\"text\\\":\\\"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\\\"}\",\n      \"url\": \"https://postman-echo.com/post\"\n    }\n  ]\n}"
+      },
+      "url": {
+        "raw": "https://postman-echo.com/transform/collection?from=1&to=2",
+        "protocol": "https",
+        "host": [
+          "postman-echo",
+          "com"
+        ],
+        "path": [
+          "transform",
+          "collection"
+        ],
+        "query": [
+          {
+            "key": "from",
+            "value": "1"
+          },
+          {
+            "key": "to",
+            "value": "2"
+          }
+        ]
+      }
+    },
+    "status": "OK",
+    "code": 200,
+    "_postman_previewlanguage": "json",
+    "header": [
+      {
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "name": "Access-Control-Allow-Credentials",
+        "description": ""
+      },
+      {
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "name": "Access-Control-Allow-Headers",
+        "description": ""
+      },
+      {
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "name": "Access-Control-Allow-Methods",
+        "description": ""
+      },
+      {
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "name": "Access-Control-Allow-Origin",
+        "description": ""
+      },
+      {
+        "key": "Access-Control-Expose-Headers",
+        "value": "",
+        "name": "Access-Control-Expose-Headers",
+        "description": ""
+      },
+      {
+        "key": "Connection",
+        "value": "keep-alive",
+        "name": "Connection",
+        "description": ""
+      },
+      {
+        "key": "Content-Encoding",
+        "value": "gzip",
+        "name": "Content-Encoding",
+        "description": ""
+      },
+      {
+        "key": "Content-Type",
+        "value": "application/json; charset=utf-8",
+        "name": "Content-Type",
+        "description": ""
+      },
+      {
+        "key": "Date",
+        "value": "Wed, 11 Jan 2017 10:41:32 GMT",
+        "name": "Date",
+        "description": ""
+      },
+      {
+        "key": "ETag",
+        "value": "W/\"4cc-7P727Clhlrl9+b1/vneniw\"",
+        "name": "ETag",
+        "description": ""
+      },
+      {
+        "key": "Server",
+        "value": "nginx/1.10.1",
+        "name": "Server",
+        "description": ""
+      },
+      {
+        "key": "Vary",
+        "value": "X-HTTP-Method-Override, Accept-Encoding",
+        "name": "Vary",
+        "description": ""
+      },
+      {
+        "key": "set-cookie",
+        "value": "sails.sid=s%3AHtnQ1hlPxoj7wZahoNkcjN-aw9nQL0fc.KSyfLbEKhv1Lt3LvH13Ogjv9ENZgsBBSM6V8Y7TqVOU; Path=/; HttpOnly",
+        "name": "set-cookie",
+        "description": ""
+      },
+      {
+        "key": "transfer-encoding",
+        "value": "chunked",
+        "name": "transfer-encoding",
+        "description": ""
+      }
+    ],
+    "cookie": [
+      {
+        "expires": "Invalid Date",
+        "httpOnly": true,
+        "domain": "postman-echo.com",
+        "path": "/",
+        "secure": false,
+        "value": "s%3AHtnQ1hlPxoj7wZahoNkcjN-aw9nQL0fc.KSyfLbEKhv1Lt3LvH13Ogjv9ENZgsBBSM6V8Y7TqVOU",
+        "key": "sails.sid"
+      }
+    ],
+    "responseTime": null,
+    "body": "{\"variables\":[],\"info\":{\"name\":\"Sample Postman Collection\",\"_postman_id\":\"7875be4b-917d-4aff-8cc4-5606c36bf418\",\"description\":\"A sample collection to demonstrate collections as a set of related requests\",\"schema\":\"https://schema.getpostman.com/json/collection/v2.0.0/collection.json\"},\"item\":[{\"name\":\"A simple GET request\",\"event\":[{\"listen\":\"test\",\"script\":{\"type\":\"text/javascript\",\"exec\":[\"tests['response code is 200'] = (responseCode.code === 200);\"]}}],\"request\":{\"url\":\"https://postman-echo.com/get?source=newman-sample-github-collection\",\"method\":\"GET\",\"header\":[],\"body\":{\"mode\":\"raw\",\"raw\":\"\"}},\"response\":[]},{\"name\":\"A simple POST request\",\"request\":{\"url\":\"https://postman-echo.com/post\",\"method\":\"POST\",\"header\":[{\"key\":\"Content-Type\",\"value\":\"text/plain\",\"description\":\"\"}],\"body\":{\"mode\":\"raw\",\"raw\":\"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\"}},\"response\":[]},{\"name\":\"A simple POST request with JSON body\",\"request\":{\"url\":\"https://postman-echo.com/post\",\"method\":\"POST\",\"header\":[{\"key\":\"Content-Type\",\"value\":\"application/json\",\"description\":\"\"}],\"body\":{\"mode\":\"raw\",\"raw\":\"{\\\"text\\\":\\\"Duis posuere augue vel cursus pharetra. In luctus a ex nec pretium...\\\"}\"}},\"response\":[]}]}"
+  }
+]

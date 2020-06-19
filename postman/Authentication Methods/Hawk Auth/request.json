@@ -1,0 +1,93 @@
+{
+  "auth": {
+    "type": "hawk",
+    "hawk": [
+      {
+        "key": "authId",
+        "value": "dh37fgj492je",
+        "type": "string"
+      },
+      {
+        "key": "authKey",
+        "value": "werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn",
+        "type": "string"
+      },
+      {
+        "key": "algorithm",
+        "value": "sha256",
+        "type": "string"
+      },
+      {
+        "key": "user",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "saveHelperData",
+        "type": "any"
+      },
+      {
+        "key": "nonce",
+        "value": "RZKGNz",
+        "type": "string"
+      },
+      {
+        "key": "extraData",
+        "type": "any"
+      },
+      {
+        "key": "appId",
+        "type": "any"
+      },
+      {
+        "key": "delegation",
+        "type": "any"
+      },
+      {
+        "key": "timestamp",
+        "value": "",
+        "type": "string"
+      }
+    ]
+  },
+  "method": "GET",
+  "header": [],
+  "body": {
+    "mode": "formdata",
+    "formdata": [
+      {
+        "key": "access_token",
+        "value": "xyz1",
+        "type": "text"
+      },
+      {
+        "key": "id",
+        "value": "U1",
+        "type": "text"
+      },
+      {
+        "key": "server_secret",
+        "value": "zeppelin",
+        "type": "text"
+      },
+      {
+        "key": "admin",
+        "value": "true",
+        "type": "text"
+      }
+    ]
+  },
+  "url": {
+    "raw": "https://postman-echo.com/auth/hawk",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "auth",
+      "hawk"
+    ]
+  },
+  "description": "This endpoint is a Hawk Authentication protected endpoint. [Hawk authentication](https://github.com/hueniverse/hawk) is a widely used protocol for protecting API endpoints. One of Hawk's main goals is to enable HTTP authentication for services that do not use TLS (although it can be used in conjunction with TLS as well).\n\nIn order to use this endpoint, select the \"Hawk Auth\" helper inside Postman, and set the following values:\n\nHawk Auth ID: `dh37fgj492je`\n\nHawk Auth Key: `werxhqb98rpaxn39848xrunpaw3489ruxnpa98w4rxn`\n\nAlgorithm: `sha256`\n\nThe rest of the values are optional, and can be left blank. Hitting send should give you a response with a status code of 200 OK."
+}

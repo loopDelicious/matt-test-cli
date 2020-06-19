@@ -1,0 +1,27 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/time/before?timestamp=2016-10-10&target=2017-10-10",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "time",
+      "before"
+    ],
+    "query": [
+      {
+        "key": "timestamp",
+        "value": "2016-10-10"
+      },
+      {
+        "key": "target",
+        "value": "2017-10-10"
+      }
+    ]
+  },
+  "description": "A simple `GET` request to `/time/before` to check if the provided timestamps is before a comparison `target` (query parameter).\n\nThis endpoint accepts `timestamp`, `locale`, `format`, `strict`, and `target` query parameters to construct the date time instance to check against.\n\nResponses are provided in JSON format, with a `before` key to indicate the result. The response code is `200` for valid query parameters, and `400` otherwise.\n\n```\n{\n  before: true/false\n}\n```"
+}

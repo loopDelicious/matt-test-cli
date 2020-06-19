@@ -1,0 +1,27 @@
+{
+  "method": "GET",
+  "header": [],
+  "url": {
+    "raw": "https://postman-echo.com/cookies/delete?foo1&foo2",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "cookies",
+      "delete"
+    ],
+    "query": [
+      {
+        "key": "foo1",
+        "value": null
+      },
+      {
+        "key": "foo2",
+        "value": null
+      }
+    ]
+  },
+  "description": "One or more cookies that has been set for this domain can be deleted by providing the cookie names as part of the URL parameter. The response of this request is a JSON containing the list of currently set cookies."
+}

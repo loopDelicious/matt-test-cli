@@ -1,0 +1,175 @@
+[
+  {
+    "id": "b39fab24-8a4a-4d5e-a5bd-0e234ba4e626",
+    "name": "Success",
+    "originalRequest": {
+      "method": "GET",
+      "header": [
+        {
+          "key": "Authorization",
+          "type": "text",
+          "name": "Authorization",
+          "value": "Hawk id=\"dh37fgj492je\", ts=\"1459422734\", nonce=\"XiwiCU\", mac=\"KzMHk67BYCC9zZqRy5hRdWFEFLHX5bNlRWGdmOAWKp0=\""
+        }
+      ],
+      "body": {
+        "mode": "formdata",
+        "formdata": [
+          {
+            "key": "access_token",
+            "value": "xyz1",
+            "type": "text"
+          },
+          {
+            "key": "id",
+            "value": "U1",
+            "type": "text"
+          },
+          {
+            "key": "server_secret",
+            "value": "zeppelin",
+            "type": "text"
+          },
+          {
+            "key": "admin",
+            "value": "true",
+            "type": "text"
+          }
+        ]
+      },
+      "url": {
+        "raw": "https://echo.getpostman.com/auth/hawk",
+        "protocol": "https",
+        "host": [
+          "echo",
+          "getpostman",
+          "com"
+        ],
+        "path": [
+          "auth",
+          "hawk"
+        ]
+      }
+    },
+    "status": "OK",
+    "code": 200,
+    "_postman_previewlanguage": "javascript",
+    "header": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Headers",
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Connection",
+        "key": "Connection",
+        "value": "keep-alive",
+        "description": ""
+      },
+      {
+        "name": "Content-Encoding",
+        "key": "Content-Encoding",
+        "value": "gzip",
+        "description": ""
+      },
+      {
+        "name": "Content-Type",
+        "key": "Content-Type",
+        "value": "application/json",
+        "description": ""
+      },
+      {
+        "name": "Date",
+        "key": "Date",
+        "value": "Thu, 31 Mar 2016 11:12:16 GMT",
+        "description": ""
+      },
+      {
+        "name": "Server",
+        "key": "Server",
+        "value": "nginx/1.6.2",
+        "description": ""
+      },
+      {
+        "name": "Server-Authorization",
+        "key": "Server-Authorization",
+        "value": "Hawk mac=\"vRrUzDdcHu2NaNts/r4zg2xmXMdX8wPiTGTM398BDRg=\", hash=\"qmtflETMybaZiOQ2dLT17yiRunFT5OCIxZRZ0boQaiE=\"",
+        "description": ""
+      },
+      {
+        "name": "Vary",
+        "key": "Vary",
+        "value": "Accept-Encoding",
+        "description": ""
+      },
+      {
+        "name": "X-Powered-By",
+        "key": "X-Powered-By",
+        "value": "Sails <sailsjs.org>",
+        "description": ""
+      },
+      {
+        "name": "transfer-encoding",
+        "key": "transfer-encoding",
+        "value": "chunked",
+        "description": ""
+      }
+    ],
+    "cookie": [
+      {
+        "expires": "Invalid Date",
+        "hostOnly": false,
+        "httpOnly": false,
+        "domain": ".getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": false,
+        "value": "yes",
+        "key": "getpostmanlogin"
+      },
+      {
+        "expires": "Invalid Date",
+        "hostOnly": false,
+        "httpOnly": false,
+        "domain": ".getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": false,
+        "value": "9f887f3b7f14b8c29ac4dc4109381b0b89a76e785c7b34251d6c8025b41b24013d2aa49f40e2deac19cbf0594dd984169455534d91ff98d4d1868d67ac857017629f137926e3a04a616bb83a2fb5ab9e6cbea9579ed5d5c1155d47545d72aad5be99f4abd0a7130805b3807d70cd507171dbe9d950d8e35a853f9ec075f5a767c95df4d57f7d521b66605b3bda3801700e26e651d1129c798b729ee3b91702d43ae64ab226c3f426893753def772c15442a7552dc84a3c773d6099a50b0a6af940b64c8176fedfcecd5fc31ccfc3bbc0124bfdaa0d62e4252d4aafb46a3c10963d12391e1fa97a1c0f19a636f57a3ac8cc35567d1cb6cb53b77f8adde3f6754a765596d7d00bdeb9acb5cc8d115e7c3f50ec3228e34d3e6c7464e9039b01868e03d10e9f87772397602453e9e91205de7b86021fad06eb26e69298e99ff1597a670faeb310f8c092041d544851de84f2bee89a92123da6eea286210524035c85361e2af42166a6",
+        "key": "postman.sid"
+      },
+      {
+        "expires": "Invalid Date",
+        "hostOnly": true,
+        "httpOnly": true,
+        "domain": "echo.getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": true,
+        "value": "s%3AryJV7v-PE4PuTjBK6nH5XOynQ4atuATV.n17KcaLhVmV8TBHNLwdwXgGR7lmqs3i478WPlTbRgZ4",
+        "key": "sails.sid"
+      }
+    ],
+    "responseTime": null,
+    "body": "{\"status\":\"pass\",\"message\":\"Hawk Authentication successful\"}"
+  }
+]

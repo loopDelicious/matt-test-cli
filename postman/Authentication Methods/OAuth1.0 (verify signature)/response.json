@@ -1,0 +1,281 @@
+[
+  {
+    "id": "013ee1b3-318b-487d-aa1f-2bfcd1953c40",
+    "name": "200",
+    "originalRequest": {
+      "method": "GET",
+      "header": [
+        {
+          "key": "Authorization",
+          "name": "Authorization",
+          "value": "OAuth oauth_consumer_key=\"RKCGzna7bv9YD57c\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1472121261\",oauth_nonce=\"ki0RQW\",oauth_version=\"1.0\",oauth_signature=\"s0rK92Myxx7ceUBVzlMaxiiXU00%3D\""
+        }
+      ],
+      "body": {
+        "mode": "formdata",
+        "formdata": [
+          {
+            "key": "code",
+            "value": "xWnkliVQJURqB2x1",
+            "type": "text"
+          },
+          {
+            "key": "grant_type",
+            "value": "authorization_code",
+            "type": "text"
+          },
+          {
+            "key": "redirect_uri",
+            "value": "https://www.getpostman.com/oauth2/callback",
+            "type": "text"
+          },
+          {
+            "key": "client_id",
+            "value": "abc123",
+            "type": "text"
+          },
+          {
+            "key": "client_secret",
+            "value": "ssh-secret",
+            "type": "text"
+          }
+        ]
+      },
+      "url": {
+        "raw": "https://echo.getpostman.com/oauth1",
+        "protocol": "https",
+        "host": [
+          "echo",
+          "getpostman",
+          "com"
+        ],
+        "path": [
+          "oauth1"
+        ]
+      }
+    },
+    "status": "OK",
+    "code": 200,
+    "_postman_previewlanguage": "javascript",
+    "header": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Headers",
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Expose-Headers",
+        "key": "Access-Control-Expose-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Connection",
+        "key": "Connection",
+        "value": "keep-alive",
+        "description": ""
+      },
+      {
+        "name": "Content-Encoding",
+        "key": "Content-Encoding",
+        "value": "gzip",
+        "description": ""
+      },
+      {
+        "name": "Content-Length",
+        "key": "Content-Length",
+        "value": "95",
+        "description": ""
+      },
+      {
+        "name": "Content-Type",
+        "key": "Content-Type",
+        "value": "application/json; charset=utf-8",
+        "description": ""
+      },
+      {
+        "name": "Date",
+        "key": "Date",
+        "value": "Thu, 25 Aug 2016 10:34:23 GMT",
+        "description": ""
+      },
+      {
+        "name": "ETag",
+        "key": "ETag",
+        "value": "W/\"4e-Cq3UhvpVSyl6R6204lPVIA\"",
+        "description": ""
+      },
+      {
+        "name": "Server",
+        "key": "Server",
+        "value": "nginx/1.8.1",
+        "description": ""
+      },
+      {
+        "name": "Vary",
+        "key": "Vary",
+        "value": "Accept-Encoding",
+        "description": ""
+      }
+    ],
+    "cookie": [],
+    "responseTime": null,
+    "body": "{\"status\":\"pass\",\"message\":\"OAuth-1.0a signature verification was successful\"}"
+  },
+  {
+    "id": "837a8560-e9d1-4cb2-98ec-ac4daf683e35",
+    "name": "401",
+    "originalRequest": {
+      "method": "GET",
+      "header": [
+        {
+          "key": "Authorization",
+          "type": "text",
+          "name": "Authorization",
+          "value": "OAuth oauth_consumer_key=\"RKCGzna7bv9YD57c_wrong\",oauth_signature_method=\"HMAC-SHA1\",oauth_timestamp=\"1472121295\",oauth_nonce=\"8LTsU2\",oauth_version=\"1.0\",oauth_signature=\"tSUexpY%2B7EhSY7cFXiFN5EMx2zw%3D\""
+        }
+      ],
+      "body": {
+        "mode": "formdata",
+        "formdata": [
+          {
+            "key": "code",
+            "value": "xWnkliVQJURqB2x1",
+            "type": "text"
+          },
+          {
+            "key": "grant_type",
+            "value": "authorization_code",
+            "type": "text"
+          },
+          {
+            "key": "redirect_uri",
+            "value": "https://www.getpostman.com/oauth2/callback",
+            "type": "text"
+          },
+          {
+            "key": "client_id",
+            "value": "abc123",
+            "type": "text"
+          },
+          {
+            "key": "client_secret",
+            "value": "ssh-secret",
+            "type": "text"
+          }
+        ]
+      },
+      "url": {
+        "raw": "https://echo.getpostman.com/oauth1",
+        "protocol": "https",
+        "host": [
+          "echo",
+          "getpostman",
+          "com"
+        ],
+        "path": [
+          "oauth1"
+        ]
+      }
+    },
+    "status": "Unauthorized",
+    "code": 401,
+    "_postman_previewlanguage": "javascript",
+    "header": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Headers",
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Expose-Headers",
+        "key": "Access-Control-Expose-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Connection",
+        "key": "Connection",
+        "value": "keep-alive",
+        "description": ""
+      },
+      {
+        "name": "Content-Length",
+        "key": "Content-Length",
+        "value": "536",
+        "description": ""
+      },
+      {
+        "name": "Content-Type",
+        "key": "Content-Type",
+        "value": "application/json; charset=utf-8",
+        "description": ""
+      },
+      {
+        "name": "Date",
+        "key": "Date",
+        "value": "Thu, 25 Aug 2016 10:34:55 GMT",
+        "description": ""
+      },
+      {
+        "name": "ETag",
+        "key": "ETag",
+        "value": "W/\"218-SGnurnTsu5qV5cCYWxsJlg\"",
+        "description": ""
+      },
+      {
+        "name": "Server",
+        "key": "Server",
+        "value": "nginx/1.8.1",
+        "description": ""
+      },
+      {
+        "name": "Vary",
+        "key": "Vary",
+        "value": "Accept-Encoding",
+        "description": ""
+      }
+    ],
+    "cookie": [],
+    "responseTime": null,
+    "body": "{\"status\":\"fail\",\"message\":\"HMAC-SHA1 verification failed\",\"base_uri\":\"https://echo.getpostman.com/oauth1\",\"normalized_param_string\":\"oauth_consumer_key=RKCGzna7bv9YD57c_wrong&oauth_nonce=8LTsU2&oauth_signature_method=HMAC-SHA1&oauth_timestamp=1472121295&oauth_version=1.0\",\"base_string\":\"GET&https%3A%2F%2Fecho.getpostman.com%2Foauth1&oauth_consumer_key%3DRKCGzna7bv9YD57c_wrong%26oauth_nonce%3D8LTsU2%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1472121295%26oauth_version%3D1.0\",\"signing_key\":\"D%2BEdQ-gs%24-%25%402Nu7&\"}"
+  }
+]

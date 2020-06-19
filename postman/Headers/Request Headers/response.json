@@ -1,0 +1,119 @@
+[
+  {
+    "id": "704004a5-3a63-4c69-99b8-4bf0a586dedf",
+    "name": "my-sample-header",
+    "originalRequest": {
+      "method": "GET",
+      "header": [
+        {
+          "key": "my-sample-header",
+          "value": "Lorem ipsum dolor sit amet"
+        }
+      ],
+      "url": {
+        "raw": "https://echo.getpostman.com/headers",
+        "protocol": "https",
+        "host": [
+          "echo",
+          "getpostman",
+          "com"
+        ],
+        "path": [
+          "headers"
+        ]
+      }
+    },
+    "status": "OK",
+    "code": 200,
+    "_postman_previewlanguage": "javascript",
+    "header": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Headers",
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Connection",
+        "key": "Connection",
+        "value": "keep-alive",
+        "description": ""
+      },
+      {
+        "name": "Content-Encoding",
+        "key": "Content-Encoding",
+        "value": "gzip",
+        "description": ""
+      },
+      {
+        "name": "Content-Length",
+        "key": "Content-Length",
+        "value": "342",
+        "description": ""
+      },
+      {
+        "name": "Content-Type",
+        "key": "Content-Type",
+        "value": "application/json; charset=utf-8",
+        "description": ""
+      },
+      {
+        "name": "Date",
+        "key": "Date",
+        "value": "Thu, 31 Mar 2016 11:14:00 GMT",
+        "description": ""
+      },
+      {
+        "name": "Server",
+        "key": "Server",
+        "value": "nginx/1.6.2",
+        "description": ""
+      },
+      {
+        "name": "Vary",
+        "key": "Vary",
+        "value": "Accept-Encoding",
+        "description": ""
+      },
+      {
+        "name": "X-Powered-By",
+        "key": "X-Powered-By",
+        "value": "Sails <sailsjs.org>",
+        "description": ""
+      }
+    ],
+    "cookie": [
+      {
+        "expires": "Invalid Date",
+        "hostOnly": true,
+        "httpOnly": true,
+        "domain": "echo.getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": true,
+        "value": "s%3A9stja5zKmIILxq9Jvtha7Lp9LIz1VIdK.Vp8MHC%2BEUJe4ICZPXn2JAoXaV2bTgtoQd%2B3XJLNr51Y",
+        "key": "sails.sid"
+      }
+    ],
+    "responseTime": null,
+    "body": "{\"headers\":{\"host\":\"echo.getpostman.com\",\"accept\":\"*/*\",\"accept-encoding\":\"gzip, deflate, sdch\",\"accept-language\":\"en-US,en;q=0.8\",\"cache-control\":\"no-cache\",\"my-sample-header\":\"Lorem ipsum dolor sit amet\",\"postman-token\":\"3c8ea80b-f599-fba6-e0b4-a0910440e7b6\",\"user-agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.110 Safari/537.36\",\"x-forwarded-port\":\"443\",\"x-forwarded-proto\":\"https\"}}"
+  }
+]

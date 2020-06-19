@@ -1,0 +1,110 @@
+{
+  "auth": {
+    "type": "oauth1",
+    "oauth1": [
+      {
+        "key": "consumerKey",
+        "value": "RKCGzna7bv9YD57c",
+        "type": "string"
+      },
+      {
+        "key": "consumerSecret",
+        "value": "D+EdQ-gs$-%@2Nu7",
+        "type": "string"
+      },
+      {
+        "key": "token",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "tokenSecret",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "signatureMethod",
+        "value": "HMAC-SHA1",
+        "type": "string"
+      },
+      {
+        "key": "timestamp",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "nonce",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "version",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "realm",
+        "value": "",
+        "type": "string"
+      },
+      {
+        "key": "addParamsToHeader",
+        "value": true,
+        "type": "boolean"
+      },
+      {
+        "key": "autoAddParam",
+        "type": "any"
+      },
+      {
+        "key": "addEmptyParamsToSign",
+        "value": false,
+        "type": "boolean"
+      }
+    ]
+  },
+  "method": "GET",
+  "header": [],
+  "body": {
+    "mode": "formdata",
+    "formdata": [
+      {
+        "key": "code",
+        "value": "xWnkliVQJURqB2x1",
+        "type": "text"
+      },
+      {
+        "key": "grant_type",
+        "value": "authorization_code",
+        "type": "text"
+      },
+      {
+        "key": "redirect_uri",
+        "value": "https://www.getpostman.com/oauth2/callback",
+        "type": "text"
+      },
+      {
+        "key": "client_id",
+        "value": "abc123",
+        "type": "text"
+      },
+      {
+        "key": "client_secret",
+        "value": "ssh-secret",
+        "type": "text"
+      }
+    ]
+  },
+  "url": {
+    "raw": "https://postman-echo.com/oauth1",
+    "protocol": "https",
+    "host": [
+      "postman-echo",
+      "com"
+    ],
+    "path": [
+      "oauth1"
+    ]
+  },
+  "description": "OAuth1.0a is a specification that defines a protocol that can be used by one\nservice to access \"protected\" resources (endpoints) on another service. A\nmajor part of OAuth1.0 is HTTP Request Signing. This endpoint allows you to \ncheck whether the request calculation works properly in the client. \n\nThe endpoint supports the HTTP ``Authorization`` header. In case the signature\nverification fails, the endpoint provides the four debug values,\n\n* ``base_uri``\n* ``normalized_param_string``\n* ``base_string``\n* ``signing_key``\n\nFor more details about these parameters, check the [OAuth1.0a Specification](http://oauth.net/core/1.0a/)\n\nIn order to use this endpoint, you can set the following values:\n\n> Consumer Key: ``RKCGzna7bv9YD57c``\n>\n> Consumer Secret: ``D+EdQ-gs$-%@2Nu7``\n\nIf you are using Postman, also check the \"Add params to header\" and \n\"Auto add parameters\" boxes."
+}

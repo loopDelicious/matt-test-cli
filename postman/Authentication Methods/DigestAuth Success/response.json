@@ -1,0 +1,96 @@
+[
+  {
+    "id": "d7495e55-e639-4c32-8dc6-c93ad7e91b86",
+    "name": "200",
+    "originalRequest": {
+      "header": [],
+      "body": {
+        "mode": "raw",
+        "raw": ""
+      },
+      "url": {
+        "raw": ""
+      }
+    },
+    "status": "OK",
+    "code": 200,
+    "_postman_previewlanguage": "javascript",
+    "header": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Headers",
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Connection",
+        "key": "Connection",
+        "value": "keep-alive",
+        "description": ""
+      },
+      {
+        "name": "Content-Encoding",
+        "key": "Content-Encoding",
+        "value": "gzip",
+        "description": ""
+      },
+      {
+        "name": "Content-Length",
+        "key": "Content-Length",
+        "value": "42",
+        "description": ""
+      },
+      {
+        "name": "Content-Type",
+        "key": "Content-Type",
+        "value": "application/json; charset=utf-8",
+        "description": ""
+      },
+      {
+        "name": "Date",
+        "key": "Date",
+        "value": "Thu, 29 Oct 2015 06:17:51 GMT",
+        "description": ""
+      },
+      {
+        "name": "Server",
+        "key": "Server",
+        "value": "nginx/1.6.2",
+        "description": ""
+      },
+      {
+        "name": "Vary",
+        "key": "Vary",
+        "value": "Accept-Encoding",
+        "description": ""
+      },
+      {
+        "name": "X-Powered-By",
+        "key": "X-Powered-By",
+        "value": "Sails <sailsjs.org>",
+        "description": ""
+      }
+    ],
+    "cookie": [],
+    "responseTime": null,
+    "body": "{\"authenticated\":true}"
+  }
+]

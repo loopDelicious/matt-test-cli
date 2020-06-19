@@ -1,0 +1,130 @@
+[
+  {
+    "id": "bfe4cd5e-2c61-4aa5-ac21-0ff957588cc0",
+    "name": "Response headers",
+    "originalRequest": {
+      "method": "GET",
+      "header": [],
+      "url": {
+        "raw": "https://echo.getpostman.com/response-headers?Content-Type=text/html&test=response_headers",
+        "protocol": "https",
+        "host": [
+          "echo",
+          "getpostman",
+          "com"
+        ],
+        "path": [
+          "response-headers"
+        ],
+        "query": [
+          {
+            "key": "Content-Type",
+            "value": "text/html"
+          },
+          {
+            "key": "test",
+            "value": "response_headers"
+          }
+        ]
+      }
+    },
+    "status": "OK",
+    "code": 200,
+    "_postman_previewlanguage": "html",
+    "header": [
+      {
+        "name": "Access-Control-Allow-Credentials",
+        "key": "Access-Control-Allow-Credentials",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Headers",
+        "key": "Access-Control-Allow-Headers",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Methods",
+        "key": "Access-Control-Allow-Methods",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Access-Control-Allow-Origin",
+        "key": "Access-Control-Allow-Origin",
+        "value": "",
+        "description": ""
+      },
+      {
+        "name": "Connection",
+        "key": "Connection",
+        "value": "keep-alive",
+        "description": ""
+      },
+      {
+        "name": "Content-Encoding",
+        "key": "Content-Encoding",
+        "value": "gzip",
+        "description": ""
+      },
+      {
+        "name": "Content-Length",
+        "key": "Content-Length",
+        "value": "71",
+        "description": ""
+      },
+      {
+        "name": "Content-Type",
+        "key": "Content-Type",
+        "value": "text/html; charset=utf-8",
+        "description": ""
+      },
+      {
+        "name": "Date",
+        "key": "Date",
+        "value": "Thu, 31 Mar 2016 11:14:18 GMT",
+        "description": ""
+      },
+      {
+        "name": "Server",
+        "key": "Server",
+        "value": "nginx/1.6.2",
+        "description": ""
+      },
+      {
+        "name": "Vary",
+        "key": "Vary",
+        "value": "Accept-Encoding",
+        "description": ""
+      },
+      {
+        "name": "X-Powered-By",
+        "key": "X-Powered-By",
+        "value": "Sails <sailsjs.org>",
+        "description": ""
+      },
+      {
+        "name": "test",
+        "key": "test",
+        "value": "response_headers",
+        "description": ""
+      }
+    ],
+    "cookie": [
+      {
+        "expires": "Invalid Date",
+        "hostOnly": true,
+        "httpOnly": true,
+        "domain": "echo.getpostman.com",
+        "path": "/",
+        "secure": false,
+        "session": true,
+        "value": "s%3A9stja5zKmIILxq9Jvtha7Lp9LIz1VIdK.Vp8MHC%2BEUJe4ICZPXn2JAoXaV2bTgtoQd%2B3XJLNr51Y",
+        "key": "sails.sid"
+      }
+    ],
+    "responseTime": null,
+    "body": "{\"Content-Type\":\"text/html\",\"test\":\"response_headers\"}"
+  }
+]
